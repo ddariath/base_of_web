@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>анкета</title>
+</head>
+<body bgcolor="c5d9ed">
+<h1 align="center"><font color="135e96" size="15"><b>Сонник</b></font></h1>
+<h2 align="center"><font color="135e96">Что тебе приснилось?</font></h2>
+<img src="imgs/form.jpg" width="100%" height="50px">
+
+<table width="100%" bgcolor="4f94d4">
+    <tbody>
+    <tr>
+        <td align="center"><a href="index.html"><img src="imgs/home2.png" height="30"></a></td>
+        <td align="center"><a href="good.html"><i>Узнать хорошее толкование</i></a></td>
+        <td align="center"><a href="bad.html"<i>Узнать нехорошее толкование</i></a></td>
+        <td align="center"><font color="white"><i>Заказать толкование сна</i></font></td>
+        <td align="center"><a href="extra.html"><i>Extra</i></a></td>
+    </tr>
+    </tbody>
+</table>
+
+
+<div style="margin-left:100px; margin-right:100px">
+<p>Опишите свой сон, оставьте свои контакты, и наши специалисты отправят вам разбор.</p>
+<form action="https://www.bing.com/search?" method="get">
+    <table width="100%" background="imgs/pattern.jpg">
+        <tbody>
+        <tr>
+            <td><p><font color="white">Как вас зовут?</font></td>
+            <td><p><font color="white">Пол:</font></p></td>
+            <td><p><font color="white">Когда вы родились?</font></td>
+            <td><p><font color="white">Как с вами связаться?</font></td>
+        </tr>
+        <tr>
+            <td><input type="text" name="user" placeholder="введите имя"></td>
+            <td><input type="radio" name="sex"><font color="white">Жен</font>
+                <br><input type="radio" name="sex"><font color="white">Муж</font></td>
+            <td><input type="date" name="birthdate"></td>
+            <td><input type="email" name="email" placeholder="электронная почта"><br><input type="tel" name="number" placeholder="номер телефона"></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <p>Ваш сон:
+    <br><textarea rows="10" cols="80" name="dreamdescr" placeholder="опишите свой сон"></textarea>
+
+    <br><input type="reset" name="reset" value="Очистить">
+    <input type="submit" name="submit" value="Отправить">
+</form>
+</div>
+</body>
+</html>
