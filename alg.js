@@ -1,4 +1,5 @@
 function verify() {
+    elementA = document.getElementById("a");
     let a = parseInt(elementA.value);
     var result;
 
@@ -21,8 +22,8 @@ function send() {
     document.getElementById("UserEnter").submit();
     }
 
-const elementA = document.getElementById("a");
-elementA.addEventListener('input', verify);
+//const elementA = document.getElementById("a");
+//elementA.addEventListener('input', verify);
 
 const elementVerify = document.getElementById("verify");
 elementVerify.addEventListener('click', verify);
